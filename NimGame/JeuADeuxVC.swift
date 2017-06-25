@@ -55,6 +55,7 @@ class JeuADeuxVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initGame()
+        print("viewdidload")
     }
 
     @IBAction func TestButtonAction() {
